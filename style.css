@@ -1,5 +1,5 @@
 body {
-  background-color: #EBEBEB;
+  background-color: #C29B9B;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #7d7d7d;
@@ -32,6 +32,7 @@ div {
 
 
 .card {
+  font-family: 'Open Sans', sans-serif;
   background-color: white;
   padding: 20px;
   margin-bottom: :20px;
@@ -46,6 +47,7 @@ div {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
+    background-color: #C29B9B;
   }
 }
 @media (max-width: 720px) {
