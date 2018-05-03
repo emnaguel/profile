@@ -1,5 +1,5 @@
 body {
-  background-color: #C29B9B;
+  background-color: #FAEBEB;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #7d7d7d;
@@ -9,7 +9,7 @@ body {
 
 body {
     display: block;
-    margin: 8px;
+    margin: 4px;
 }
 
 h1 {
@@ -35,7 +35,7 @@ div {
   font-family: 'Open Sans', sans-serif;
   background-color: white;
   padding: 20px;
-  margin-bottom: :20px;
+  margin-bottom: 20px;
   border-radius: 4px;
   box-shadow: 0px 1px 2px 0px;
   width: 500px;
@@ -48,11 +48,13 @@ div {
   .container {
     width: 700px;
     background-color: #C29B9B;
+    margin: 30px, auto;
   }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
+    padding: 5px;
     width: 500px;
   }
 }
@@ -96,4 +98,40 @@ ul {
 
 .text-center {
   text-align: center;
+}
+
+#sidebar {
+  background-color:#384047;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+}
+
+#sidebar li {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+div {
+  display: block;
+}
+
+.fa {
+  display: inline-block;
+  font-size: inherit;
 }
